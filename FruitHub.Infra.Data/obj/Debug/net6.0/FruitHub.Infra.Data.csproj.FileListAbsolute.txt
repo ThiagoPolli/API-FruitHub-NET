@@ -1,0 +1,17 @@
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Infra.Data.deps.json
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Infra.Data.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Infra.Data.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Domain.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Domain.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.csproj.AssemblyReference.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.AssemblyInfoInputs.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.AssemblyInfo.cs
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.csproj.CoreCompileInputs.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.70516E21.Up2Date
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\refint\FruitHub.Infra.Data.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\ref\FruitHub.Infra.Data.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Infra.Data.runtimeconfig.json
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.genruntimeconfig.cache

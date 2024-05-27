@@ -1,0 +1,11 @@
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\bin\Debug\net6.0\FruitHub.Domain.deps.json
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\bin\Debug\net6.0\FruitHub.Domain.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\bin\Debug\net6.0\FruitHub.Domain.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\FruitHub.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\FruitHub.Domain.AssemblyInfoInputs.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\FruitHub.Domain.AssemblyInfo.cs
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\FruitHub.Domain.csproj.CoreCompileInputs.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\FruitHub.Domain.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\refint\FruitHub.Domain.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\FruitHub.Domain.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Domain\obj\Debug\net6.0\ref\FruitHub.Domain.dll

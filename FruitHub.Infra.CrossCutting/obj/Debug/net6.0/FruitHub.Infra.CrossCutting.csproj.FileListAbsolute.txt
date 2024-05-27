@@ -1,0 +1,11 @@
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\bin\Debug\net6.0\FruitHub.Infra.CrossCutting.deps.json
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\bin\Debug\net6.0\FruitHub.Infra.CrossCutting.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\bin\Debug\net6.0\FruitHub.Infra.CrossCutting.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\FruitHub.Infra.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\FruitHub.Infra.CrossCutting.AssemblyInfoInputs.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\FruitHub.Infra.CrossCutting.AssemblyInfo.cs
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\FruitHub.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\FruitHub.Infra.CrossCutting.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\refint\FruitHub.Infra.CrossCutting.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\FruitHub.Infra.CrossCutting.pdb
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.CrossCutting\obj\Debug\net6.0\ref\FruitHub.Infra.CrossCutting.dll

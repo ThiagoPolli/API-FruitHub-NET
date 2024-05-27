@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D557BD-2ACE-408D-8A55-BBEF0698100C}|WebApplication1\\FruitHub.Api.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\webapplication1\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D557BD-2ACE-408D-8A55-BBEF0698100C}|WebApplication1\\FruitHub.Api.csproj|solutionrelative:webapplication1\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D557BD-2ACE-408D-8A55-BBEF0698100C}|WebApplication1\\FruitHub.Api.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\webapplication1\\extension\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D557BD-2ACE-408D-8A55-BBEF0698100C}|WebApplication1\\FruitHub.Api.csproj|solutionrelative:webapplication1\\extension\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.infra.data\\models\\pageparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|solutionrelative:fruithub.infra.data\\models\\pageparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.infra.data\\models\\pagelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|solutionrelative:fruithub.infra.data\\models\\pagelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04CF0AF-8985-4883-8A45-BEBDAF853BAF}|FruitHub.Service\\FruitHub.Service.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04CF0AF-8985-4883-8A45-BEBDAF853BAF}|FruitHub.Service\\FruitHub.Service.csproj|solutionrelative:fruithub.service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04CF0AF-8985-4883-8A45-BEBDAF853BAF}|FruitHub.Service\\FruitHub.Service.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.service\\interface\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04CF0AF-8985-4883-8A45-BEBDAF853BAF}|FruitHub.Service\\FruitHub.Service.csproj|solutionrelative:fruithub.service\\interface\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42CE1655-6249-455F-B120-CE550739ABAF}|FruitHub.Domain\\FruitHub.Domain.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42CE1655-6249-455F-B120-CE550739ABAF}|FruitHub.Domain\\FruitHub.Domain.csproj|solutionrelative:fruithub.domain\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.infra.data\\repository\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|solutionrelative:fruithub.infra.data\\repository\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\fruithub.infra.data\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193A46D4-1D8C-44C2-9747-68FDAB1D9E5D}|FruitHub.Infra.Data\\FruitHub.Infra.Data.csproj|solutionrelative:fruithub.infra.data\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4D557BD-2ACE-408D-8A55-BBEF0698100C}|WebApplication1\\FruitHub.Api.csproj|d:\\temp\\workspaces-net\\prj-fruithub\\fruithub\\webapplication1\\models\\paginationheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4D557BD-2ACE-408D-8A55-BBEF0698100C}|WebApplication1\\FruitHub.Api.csproj|solutionrelative:webapplication1\\models\\paginationheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Domain\\Produto.cs",
+              "RelativeDocumentMoniker": "FruitHub.Domain\\Produto.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Domain\\Produto.cs",
+              "RelativeToolTip": "FruitHub.Domain\\Produto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:51:03.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaginationHeader.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\WebApplication1\\Models\\PaginationHeader.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\PaginationHeader.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\WebApplication1\\Models\\PaginationHeader.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\PaginationHeader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:14:45.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\WebApplication1\\Extension\\Pagination.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Extension\\Pagination.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\WebApplication1\\Extension\\Pagination.cs",
+              "RelativeToolTip": "WebApplication1\\Extension\\Pagination.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:11:43.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\WebApplication1\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProdutoController.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\WebApplication1\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAcwEEAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:06:39.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Service\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "FruitHub.Service\\ProdutoService.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Service\\ProdutoService.cs",
+              "RelativeToolTip": "FruitHub.Service\\ProdutoService.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAcwF4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:56:10.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Service\\Interface\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "FruitHub.Service\\Interface\\IProdutoService.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Service\\Interface\\IProdutoService.cs",
+              "RelativeToolTip": "FruitHub.Service\\Interface\\IProdutoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:54:46.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "FruitHub.Infra.Data\\ProdutoRepository.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\ProdutoRepository.cs",
+              "RelativeToolTip": "FruitHub.Infra.Data\\ProdutoRepository.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:50:54.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\Repository\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "FruitHub.Infra.Data\\Repository\\IProdutoRepository.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\Repository\\IProdutoRepository.cs",
+              "RelativeToolTip": "FruitHub.Infra.Data\\Repository\\IProdutoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:49:52.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageParams.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\Models\\PageParams.cs",
+              "RelativeDocumentMoniker": "FruitHub.Infra.Data\\Models\\PageParams.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\Models\\PageParams.cs",
+              "RelativeToolTip": "FruitHub.Infra.Data\\Models\\PageParams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:35:10.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageList.cs",
+              "DocumentMoniker": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\Models\\PageList.cs",
+              "RelativeDocumentMoniker": "FruitHub.Infra.Data\\Models\\PageList.cs",
+              "ToolTip": "D:\\temp\\workspaces-NET\\prj-FruitHub\\FruitHub\\FruitHub.Infra.Data\\Models\\PageList.cs",
+              "RelativeToolTip": "FruitHub.Infra.Data\\Models\\PageList.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T21:34:43.642Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
