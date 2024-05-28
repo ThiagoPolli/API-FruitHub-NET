@@ -94,7 +94,7 @@ namespace FruitHub.Service
             }
         }
 
-        //BUSCAR POR PAGINAS 
+        //BUSCAR POR PAGINAS E ATIVOS
         public async Task<PageList<CategoriaDTO>> GetByPageCategoria(PageParams pageParams, bool ativo)
         {
             try
