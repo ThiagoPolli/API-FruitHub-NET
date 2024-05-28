@@ -43,13 +43,16 @@ namespace FruitHub.Infra.Data
            return await _context.Produto.Where(p => p.CategoriaId == id).ToListAsync();
         }
 
-        public async Task<PageList<Produto>> GetProdutoPage(PageParams pageParams)
+        public async Task<PageList<Produto>> GetProdutoPage(PageParams pageParams, bool ativo)
         {
-            IQueryable<Produto> query = _context.Produto;
+            if(ativo == null) { ativo = true; }
+            IQueryable<Produto> query = _context.Produto.Where(p => p.Ativo == ativo);
             
             query = query.AsNoTracking();
 
             return await PageList<Produto>.CreateAsync(query, pageParams.Pagenumber, pageParams.PageSize);
         }
+
+      
     }
 }

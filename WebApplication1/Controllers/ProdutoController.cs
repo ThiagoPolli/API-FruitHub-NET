@@ -63,18 +63,16 @@ namespace FruitHub.Api.Controllers
 
         //BUSCAR POR PAGINA
         [HttpGet("page")]
-        public async Task<IActionResult> GetProdutoPage([FromQuery]PageParams pageParams)
+        public async Task<IActionResult> GetProdutoPage([FromQuery]PageParams pageParams, bool ativo)
         {
             try
             {
-                var produtos = await _service.GetByPageProdutos(pageParams);
+                var produtos = await _service.GetByPageProdutos(pageParams, ativo);
                 if (produtos == null) { return NotFound(); }
 
-                Response.AddPagination(produtos.CurrentPage, produtos.PageSize, produtos.TotalCount, produtos.TotalPages);
-                
+               // Response.AddPagination(produtos.CurrentPage, produtos.PageSize, produtos.TotalCount, produtos.TotalPages);
+               Response.AddPagination(produtos.CurrentPage, produtos.PageSize, produtos.TotalCount, produtos.TotalPages);
                 return Ok(produtos);
-
-
             }
             catch (Exception ex)
             {

@@ -85,11 +85,11 @@ namespace FruitHub.Service
         }
 
         //BUSCAR POR PAGINAS
-        public async Task<PageList<ProdutoDTO>> GetByPageProdutos(PageParams pageParams)
+        public async Task<PageList<ProdutoDTO>> GetByPageProdutos(PageParams pageParams, bool ativo)
         {
             try
             {
-                var produtos = await _produtoRepository.GetProdutoPage(pageParams);
+                var produtos = await _produtoRepository.GetProdutoPage(pageParams, ativo);
                 if (produtos == null) return null;
 
                 var result = _mapper.Map<PageList<ProdutoDTO>>(produtos);

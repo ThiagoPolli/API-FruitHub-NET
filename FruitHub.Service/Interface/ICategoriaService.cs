@@ -1,4 +1,5 @@
-﻿using FruitHub.Service.DTOs;
+﻿using FruitHub.Infra.Data.Models;
+using FruitHub.Service.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,8 @@ namespace FruitHub.Service.Interface
         Task<CategoriaDTO> GetIdCategoriaAsync(long id);
         Task<IEnumerable<CategoriaDTO>> GetCategoriasByNameAsync(string name);
         Task<IEnumerable<CategoriaDTO>> GetCategoriaPersonalizadaAsync(string name);
-        Task<IEnumerable<CategoriaDTO>> GetCategoriasByActiveAsync();
-        Task<IEnumerable<CategoriaDTO>> GetCategoriasByDeletedAsync();
+        Task<IEnumerable<CategoriaDTO>> GetCategoriasByActiveAsync( bool ativo);
+        Task<PageList<CategoriaDTO>> GetByPageCategoria(PageParams pageParams, bool ativo);
 
     }
 }

@@ -10,7 +10,7 @@ namespace FruitHub.Service.Interface
 {
     public interface IProdutoService
     {
-        Task<PageList<ProdutoDTO>> GetByPageProdutos(PageParams pageParams);
+        Task<PageList<ProdutoDTO>> GetByPageProdutos(PageParams pageParams, bool ativo);
         Task<ProdutoDTO> AddProduto(ProdutoDTO produto);
         Task<ProdutoDTO> UpdateProduto(long id, ProdutoDTO produto);
         Task<IEnumerable<ProdutoDTO>> GetAllProdutos();

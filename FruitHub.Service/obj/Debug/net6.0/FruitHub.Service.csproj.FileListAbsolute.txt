@@ -17,3 +17,4 @@ D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Service\obj\Debug\net6.0\r
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Service\obj\Debug\net6.0\FruitHub.Service.pdb
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Service\obj\Debug\net6.0\FruitHub.Service.genruntimeconfig.cache
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Service\obj\Debug\net6.0\ref\FruitHub.Service.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Service\obj\Debug\net6.0\FruitHub.Service.sourcelink.json

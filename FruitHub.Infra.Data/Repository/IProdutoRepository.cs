@@ -10,7 +10,7 @@ namespace FruitHub.Infra.Data.Repository
 {
     public interface IProdutoRepository : IBaseRepository
     {
-        Task<PageList<Produto>> GetProdutoPage(PageParams pageParams);
+        Task<PageList<Produto>> GetProdutoPage(PageParams pageParams, bool ativo);
         Task<IEnumerable<Produto>> GetProdutosAll();
         Task<Produto> GetProdutosByIdAsync(long id);
         Task<IEnumerable<Produto>> GetProdutoPersonalizado(string name);

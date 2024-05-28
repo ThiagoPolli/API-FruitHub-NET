@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FruitHub.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+788ec752062c9c451af33dc8db8e37b11f1791d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("FruitHub.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FruitHub.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

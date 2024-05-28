@@ -85,3 +85,4 @@ D:\temp\workspaces-NET\prj-FruitHub\FruitHub\WebApplication1\bin\Debug\net6.0\Fr
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\WebApplication1\bin\Debug\net6.0\FruitHub.Infra.Data.pdb
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\WebApplication1\bin\Debug\net6.0\FruitHub.Service.pdb
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\WebApplication1\bin\Debug\net6.0\AutoMapper.dll
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\WebApplication1\obj\Debug\net6.0\FruitHub.Api.sourcelink.json

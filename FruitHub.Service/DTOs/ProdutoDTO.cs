@@ -12,6 +12,7 @@ namespace FruitHub.Service.DTOs
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public decimal Preco { get; set; }
+        public bool Ativo { get; set; }
         public long CategoriaId { get; set; }
     }
 }

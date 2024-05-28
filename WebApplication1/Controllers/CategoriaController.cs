@@ -1,4 +1,6 @@
-﻿using FruitHub.Service.DTOs;
+﻿using FruitHub.Api.Extension;
+using FruitHub.Infra.Data.Models;
+using FruitHub.Service.DTOs;
 using FruitHub.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,17 +28,9 @@ namespace FruitHub.Api.Controllers
 
         //BUSCAR POR ATIVOS
         [HttpGet("ativo")]
-        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> findByActive()
+        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> findByActive([FromQuery] bool ativo)
         {
-            var categorias = await _service.GetCategoriasByActiveAsync();
-            return Ok(categorias);
-        }
-
-        //BUSCAR POR DESATIVADOS
-        [HttpGet("deletado")]
-        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> findByDeleted()
-        {
-            var categorias = await _service.GetCategoriasByDeletedAsync();
+            var categorias = await _service.GetCategoriasByActiveAsync(ativo);
             return Ok(categorias);
         }
 
@@ -66,6 +60,18 @@ namespace FruitHub.Api.Controllers
             if (categoria == null) { return NotFound($" Categoria Não encontrado com id: {id}"); }
             return Ok(categoria);
         }
+
+        //BUSCAR POR PAGINA
+        [HttpGet("page")]
+        public async Task<ActionResult> GetCategoriaPage([FromQuery] PageParams pageParams, bool ativo)
+        {
+            var categorias = await _service.GetByPageCategoria(pageParams, ativo);
+            if (categorias == null) { return BadRequest(); }
+
+            Response.AddPagination(categorias.CurrentPage, categorias.PageSize, categorias.TotalCount, categorias.TotalPages);
+            return Ok(categorias);
+        }
+
 
         //ADICIONAR 
         [HttpPost]

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FruitHub.Domain;
 using FruitHub.Infra.Data.Context;
+using FruitHub.Infra.Data.Models;
 using FruitHub.Infra.Data.Repository;
 using FruitHub.Service.DTOs;
 using FruitHub.Service.Interface;
@@ -53,16 +54,9 @@ namespace FruitHub.Service
         }
 
         //BUSCAR POR ATIVOS
-        public async Task<IEnumerable<CategoriaDTO>> GetCategoriasByActiveAsync()
+        public async Task<IEnumerable<CategoriaDTO>> GetCategoriasByActiveAsync(bool ativo)
         {
-            List<Categoria> categorias = (List<Categoria>)await _categoriaRepository.GetCategoriasActive();
-            return _mapper.Map<List<CategoriaDTO>>(categorias);
-        }
-
-        //BUSCAR POR DESATIVADOS
-        public async Task<IEnumerable<CategoriaDTO>> GetCategoriasByDeletedAsync()
-        {
-            List<Categoria> categorias = (List<Categoria>)await _categoriaRepository.GetCategoriasDeleted();
+            List<Categoria> categorias = (List<Categoria>)await _categoriaRepository.GetCategoriasActive(ativo);
             return _mapper.Map<List<CategoriaDTO>>(categorias);
         }
 
@@ -97,6 +91,29 @@ namespace FruitHub.Service
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
+            }
+        }
+
+        //BUSCAR POR PAGINAS 
+        public async Task<PageList<CategoriaDTO>> GetByPageCategoria(PageParams pageParams, bool ativo)
+        {
+            try
+            {
+                var categorias = await _categoriaRepository.GetCategoriaPage(pageParams, ativo);
+                if (categorias == null) return null;
+
+                var result = _mapper.Map<PageList<CategoriaDTO>>(categorias);
+
+                result.CurrentPage = categorias.CurrentPage;
+                result.TotalPages = categorias.TotalPages;
+                result.PageSize = categorias.PageSize;
+                result.TotalCount = categorias.TotalCount;
+                return result;
+
+            }
+            catch (Exception ex)
+            {
+               throw new Exception(ex.Message);
             }
         }
 
@@ -168,6 +185,6 @@ namespace FruitHub.Service
             return null;
         }
 
-      
+       
     }
 }

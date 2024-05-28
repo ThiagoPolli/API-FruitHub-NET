@@ -14,6 +14,7 @@ namespace FruitHub.Domain
         public string Nome { get; set; } 
         public string Descricao { get; set; }
         public decimal Preco { get; set; }
+        public bool Ativo { get; set; }
 
         [ForeignKey("Categoria")]
         public long CategoriaId { get; set; }

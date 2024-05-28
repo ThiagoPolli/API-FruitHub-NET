@@ -15,3 +15,4 @@ D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\ref\FruitHub.Infra.Data.dll
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\bin\Debug\net6.0\FruitHub.Infra.Data.runtimeconfig.json
 D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.genruntimeconfig.cache
+D:\temp\workspaces-NET\prj-FruitHub\FruitHub\FruitHub.Infra.Data\obj\Debug\net6.0\FruitHub.Infra.Data.sourcelink.json

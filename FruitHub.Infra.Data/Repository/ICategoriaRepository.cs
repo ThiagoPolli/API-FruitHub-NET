@@ -1,4 +1,5 @@
 ﻿using FruitHub.Domain;
+using FruitHub.Infra.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,13 @@ namespace FruitHub.Infra.Data.Repository
 {
     public interface ICategoriaRepository : IBaseRepository
     {
-        //Task<PageList<Categoria>> GetCategoriasByAllAsync(PageParams pageParams);
+        Task<PageList<Categoria>> GetCategoriaPage(PageParams pageParams, bool ativo);
         Task<IEnumerable<Categoria>> GetGetAllCategoriasAll();
         Task<Categoria> GetCategoriaByIdAsync(long id);
         Task<IEnumerable<Categoria>> GetCategoriasByNameAsync(string name);
         Task<IEnumerable<Categoria>> GetcategoriaPersonalizada(string name);
-        Task<IEnumerable<Categoria>> GetCategoriasActive();
-        Task<IEnumerable<Categoria>> GetCategoriasDeleted();
+        Task<IEnumerable<Categoria>> GetCategoriasActive( bool ativo);
+       
 
     }
 }

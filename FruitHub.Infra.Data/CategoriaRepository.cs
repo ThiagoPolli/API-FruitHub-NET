@@ -1,5 +1,6 @@
 ﻿using FruitHub.Domain;
 using FruitHub.Infra.Data.Context;
+using FruitHub.Infra.Data.Models;
 using FruitHub.Infra.Data.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -36,15 +37,13 @@ namespace FruitHub.Infra.Data
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<Categoria>> GetCategoriasActive()
+        public async Task<IEnumerable<Categoria>> GetCategoriasActive(bool ativo)
         {
-            return await _context.Categoria.Where(c => c.Active == true).ToListAsync();
+            if(ativo == null) { ativo = true;  }
+
+            return await _context.Categoria.Where(c => c.Active == ativo).ToListAsync();
         }
 
-        public async Task<IEnumerable<Categoria>> GetCategoriasDeleted()
-        {
-            return await _context.Categoria.Where(c => c.Active == false).ToListAsync();
-        }
 
         public async Task<IEnumerable<Categoria>> GetcategoriaPersonalizada(string name)
         {
@@ -53,6 +52,16 @@ namespace FruitHub.Infra.Data
 
             // Execute a consulta SQL e obtenha as categorias correspondentes
             return await _context.Categoria.FromSqlRaw(sql).ToListAsync();
+        }
+
+        public async Task<PageList<Categoria>> GetCategoriaPage(PageParams pageParams, bool ativo)
+        {
+           if(ativo == null) { ativo = true; }
+
+           IQueryable<Categoria> query = _context.Categoria.Where(c => c.Active == ativo);
+            query = query.AsNoTracking();
+
+            return await PageList<Categoria>.CreateAsync(query, pageParams.Pagenumber, pageParams.PageSize);
         }
     }
 }
