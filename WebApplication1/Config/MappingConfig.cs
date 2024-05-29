@@ -12,6 +12,8 @@ namespace FruitHub.Api.Config
             {
                 config.CreateMap<Categoria, CategoriaDTO>().ReverseMap();
                 config.CreateMap<Produto, ProdutoDTO>().ReverseMap();
+                config.CreateMap<Estado, EstadoDTO>().ReverseMap();
+                config.CreateMap<Cidade, CidadeDTO>().ReverseMap();
 
             });
             return mappingConfig;

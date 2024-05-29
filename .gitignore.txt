@@ -1,0 +1,9 @@
+*.vs\*
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+tmp/
+temp/
+bin\Debug\net6.0

@@ -34,6 +34,12 @@ builder.Services.AddTransient<ICategoriaService, CategoriaService>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddTransient<IProdutoService, ProdutoService>();
 
+builder.Services.AddScoped<IEstadoRepository, EstadoRepository>();
+builder.Services.AddTransient<IEstadoService, EstadoService>();
+
+builder.Services.AddScoped<ICidadeRepository, CidadeRepository>();
+builder.Services.AddTransient<ICidadeService, CidadeService>();
+
 
 builder.Services.AddScoped<IBaseRepository, BaseRepository>();
 builder.Services.AddTransient<IBaseRepository, BaseRepository>();

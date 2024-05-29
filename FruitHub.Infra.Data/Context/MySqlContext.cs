@@ -14,5 +14,7 @@ namespace FruitHub.Infra.Data.Context
 
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Produto> Produto { get; set; }
+        public DbSet<Cidade> Cidade { get; set; }
+        public DbSet<Estado> Estado { get; set; }
     }
 }
