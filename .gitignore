@@ -1,0 +1,60 @@
+.vs/
+
+# Arquivos de log
+*.log
+*.dll
+
+# Arquivos temporários
+tmp/
+temp/
+*bin/Debug/net6.0*
+WebApplication1/obj/Debug/net6.0
+
+.vs/FruitHub/FileContentIndex/
+WebApplication1/obj/Debug/net6.0/refint/FruitHub.Api.dll
+
+# Arquivos temporários
+obj/
+bin/
+
+# Arquivos de compilação
+*.exe
+*.dll
+*.pdb
+*.dll.config
+
+# Arquivos de projeto
+*.user
+*.suo
+*.cache
+
+# Logs e arquivos de teste
+TestResults/
+[Tt]est[Rr]esult*/
+*.log
+
+# Visual Studio files
+.vscode/
+.vs/
+*.sln.ide
+
+# Arquivos de configuração
+*.vsconfig
+
+# Ferramentas e cache do .NET
+project.lock.json
+*.nuget/
+*.paket/
+*.nupkg
+*.dlls
+*.cache
+*.tmp
+*.tools
+*.csproj.nuget.g.targets
+*.csproj.nuget.g.props
+*.csproj.nuget.dgspec.json
+
+# Arquivos de usuário específicos
+Thumbs.db
+Desktop.ini
+
