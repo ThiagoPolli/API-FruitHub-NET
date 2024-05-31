@@ -1,21 +1,6 @@
-.vs/
-
-# Arquivos de log
-*.log
-*.dll
-
 # Arquivos temporários
-tmp/
-temp/
-*bin/Debug/net6.0*
-WebApplication1/obj/Debug/net6.0
-
-.vs/FruitHub/FileContentIndex/
-WebApplication1/obj/Debug/net6.0/refint/FruitHub.Api.dll
-
-# Arquivos temporários
-obj/
-bin/
+[Tt]emp/
+[Oo]bj/
 
 # Arquivos de compilação
 *.exe
@@ -27,25 +12,34 @@ bin/
 *.user
 *.suo
 *.cache
+*.csproj.user
+*.csproj.dotSettings
 
 # Logs e arquivos de teste
 TestResults/
 [Tt]est[Rr]esult*/
 *.log
+*.trx
+*.vspscc
+*.vssscc
 
 # Visual Studio files
 .vscode/
 .vs/
+*.suo
 *.sln.ide
+*.sln.ide.*
 
 # Arquivos de configuração
 *.vsconfig
 
 # Ferramentas e cache do .NET
 project.lock.json
+packages/
 *.nuget/
 *.paket/
 *.nupkg
+*.nupkg.sha512
 *.dlls
 *.cache
 *.tmp
@@ -55,6 +49,27 @@ project.lock.json
 *.csproj.nuget.dgspec.json
 
 # Arquivos de usuário específicos
-Thumbs.db
-Desktop.ini
-
+*.vspscc
+*.vssscc
+*.ncrunch*
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.csproj.ide
+*.pidb
+*.pdb
+*.cache
+*.tmp
+*.gpstate
+*.gpState
+*.suo
+*.user
+*.webinfo
+*.Publish.xml
+*.pfx
+*.vstest
+*.csproj.DotSettings.user
+*.csproj.user
+*.DotSettings
