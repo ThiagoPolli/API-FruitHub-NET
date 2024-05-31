@@ -59,6 +59,7 @@ namespace FruitHub.Api.Controllers
             return Ok(cidade);
         }
 
+        //Atualizar
         [HttpPut("{id}")]
         public async Task<ActionResult<CidadeInsertDTO>> Update([FromBody]CidadeInsertDTO cidadeInsertDto, long id)
         {
