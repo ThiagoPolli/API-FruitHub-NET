@@ -20,18 +20,26 @@ namespace FruitHub.Infra.Data
 
         public async Task<IEnumerable<Cidade>> GetAllCidade()
         {
-           List<Cidade> cidades = await _context.Cidade.ToListAsync();
+           List<Cidade> cidades = await _context.Cidade.Include(e => e.Estado).ToListAsync();
             return cidades;
         }
 
         public async Task<IEnumerable<Cidade>> GetAllCidadeEstado(long id)
         {
-          return await _context.Cidade.Where(c => c.EstadoId == id).ToListAsync();
+          return await _context.Cidade.Where(c => c.EstadoId == id).Include(e => e.Estado).ToListAsync();
         }
 
-        public async Task<Cidade> GetAllCidadeId(long id)
+        public async Task<IEnumerable<Cidade>> JoinGetAllCidadeEstado(long id)
         {
-            return await _context.Cidade.FindAsync(id);
+            var cidades = await _context.Cidade.Where(c => c.EstadoId == id).Include(e => e.Estado).ToListAsync();
+            return cidades;
         }
+
+        public async Task<Cidade> GetCidadeId(long id)
+        {
+            return await _context.Cidade.Where( c => c.Id == id).Include(e => e.Estado).FirstOrDefaultAsync();
+        }
+
+       
     }
 }

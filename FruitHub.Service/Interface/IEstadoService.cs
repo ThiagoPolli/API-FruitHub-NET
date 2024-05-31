@@ -11,5 +11,6 @@ namespace FruitHub.Service.Interface
     {
         Task<IEnumerable<EstadoDTO>> GetAllEstadoAsyc();
         Task<EstadoDTO> GetEstadoIdAsync(long id);
+        Task<EstadoDTO> AddEstadoe(EstadoDTO estatoDto);
     }
 }

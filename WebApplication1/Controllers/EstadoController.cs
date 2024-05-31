@@ -31,5 +31,13 @@ namespace FruitHub.Api.Controllers
             if(estado == null) { return NotFound($" Estado Não encontrado com id: {id}"); }
             return Ok(estado);
         }
+
+        [HttpPost]
+        public async Task<ActionResult<EstadoDTO>> Create([FromBody]EstadoDTO estado)
+        {
+            if(estado == null) { return BadRequest("Erro ao criar Categoria"); }
+            var result = await _estadoService.AddEstadoe(estado);
+            return Ok(result);
+        }
     }
 }

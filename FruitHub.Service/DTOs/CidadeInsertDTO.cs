@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace FruitHub.Service.DTOs
 {
-    public class CidadeDTO
+    public class CidadeInsertDTO
     {
         public long Id { get; set; }
         public string Nome { get; set; }
         public string Abreviacao { get; set; }
         public long EstadoId { get; set; }
 
-        public virtual Estado Estado { get; set; }
     }
 }

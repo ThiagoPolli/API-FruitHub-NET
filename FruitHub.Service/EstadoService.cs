@@ -46,5 +46,24 @@ namespace FruitHub.Service
                 throw new Exception(ex.Message);
             }
         }
+
+        public async Task<EstadoDTO> AddEstadoe(EstadoDTO estadoDTO)
+        {
+            try
+            {
+                Estado estado = _mapper.Map<Estado>(estadoDTO);
+                _baseRepository.Add(estado);
+                if( await _baseRepository.SaveChangesAsync() )
+                {
+                    var result = await _repository.GetEstadoId(estado.Id);
+                    return _mapper.Map<EstadoDTO>(result);
+                }
+                return null;
+
+            }catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

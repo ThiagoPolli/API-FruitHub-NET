@@ -11,7 +11,8 @@ namespace FruitHub.Infra.Data.Repository
     {
         Task<IEnumerable<Cidade>> GetAllCidade();
         Task<IEnumerable<Cidade>> GetAllCidadeEstado(long id);
-        Task<Cidade> GetAllCidadeId(long id);
+        Task<IEnumerable<Cidade>> JoinGetAllCidadeEstado(long id);
+        Task<Cidade> GetCidadeId(long id);
 
     }
 }
