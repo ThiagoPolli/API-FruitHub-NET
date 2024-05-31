@@ -6,13 +6,20 @@
 trigger:
 - Dev
 
-pool:
-  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+
+name: $(BuildID)
+stages:
+- stage: Build
+  jobs:
+  - job: Job_1
+    displayName: Agent job 1
+    pool:
+      vmImage: windows-2019
 
 steps:
 - task: NuGetToolInstaller@1
