@@ -1,4 +1,11 @@
- .vs/FruitHub/v17/.suo
+/net6.0/
+/net6.0/*
+*/net6.0/*
+/bin/
+/bin/*
+*/bin/*
+
+.vs/FruitHub/v17/.suo
 
 # Arquivos temporários
 [Tt]emp/

@@ -15,6 +15,6 @@ namespace FruitHub.Domain
         [ForeignKey("Estado")]
         public long EstadoId { get; set; }
 
-        public virtual Estado estado { get; set; } 
+        public virtual Estado Estado { get; set; } 
     }
 }
