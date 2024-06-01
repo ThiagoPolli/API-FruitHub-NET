@@ -1,0 +1,14 @@
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: dotnet --list-sdks
+  displayName: 'Listar versões do .NET pré-instaladas'
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '6.0.16'
